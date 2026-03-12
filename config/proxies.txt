@@ -1,0 +1,14 @@
+# Lista de proxies (un proxy por línea)
+# Formato: protocolo://host:puerto
+# Ejemplo: 
+# http://proxy1.example.com:8080
+# http://user:pass@proxy2.example. com:3128
+# socks5://proxy3.example.com:1080
+
+# Servicios recomendados de proxies residenciales (de pago):
+# - Bright Data (luminati.io)
+# - Smartproxy (smartproxy.com)
+# - Oxylabs (oxylabs.io)
+# - GeoSurf (geosurf.com)
+
+# IMPORTANTE: No usar proxies gratuitos en producción

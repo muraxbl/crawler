@@ -1,0 +1,759 @@
+[2026-03-11 07:00: 01] [INFO] API Request: POST - Endpoint: products/scrape-shopify
+[2026-03-11 07:00: 01] [INFO] ProductController - Method: POST, Path: products/scrape-shopify
+[2026-03-11 07:00: 01] [INFO] Starting Shopify scrape - max products: 10000
+[2026-03-11 07:00: 01] [INFO] Starting Shopify JSON scrape - max products: 10000
+[2026-03-11 07:00: 01] [INFO] Fetching page 1:  https://greenice.com/products.json?limit=250&page=1
+[2026-03-11 07:00: 01] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=1
+[2026-03-11 07:00: 02] [INFO] cURL response - HTTP 200, Response length: 1257618 bytes, Error: 
+[2026-03-11 07:00: 02] [INFO] Successfully decoded JSON with 250 products
+[2026-03-11 07:00: 02] [INFO] Found 250 products on page 1
+[2026-03-11 07:00: 02] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 03] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 03] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 03] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 03] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 03] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 04] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 04] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 04] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 04] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 04] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 04] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 04] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 04] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 04] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 04] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 04] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 04] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 04] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 04] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 04] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 04] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 04] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 04] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 04] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 04] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 04] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 04] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 04] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 05] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 05] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 05] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 05] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 05] [INFO] Fetching page 2:  https://greenice.com/products.json?limit=250&page=2
+[2026-03-11 07:00: 05] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=2
+[2026-03-11 07:00: 06] [INFO] cURL response - HTTP 200, Response length: 957965 bytes, Error: 
+[2026-03-11 07:00: 06] [INFO] Successfully decoded JSON with 250 products
+[2026-03-11 07:00: 06] [INFO] Found 250 products on page 2
+[2026-03-11 07:00: 06] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 06] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 06] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 06] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 06] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 06] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 06] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 06] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 06] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 06] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 06] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 06] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 06] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 06] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 06] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 06] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 06] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 06] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 06] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 06] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 06] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 06] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 06] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 06] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 06] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 06] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 06] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 06] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 06] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 06] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 06] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 07] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 07] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 07] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 07] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 07] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 07] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 07] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 07] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 07] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 08] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 08] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 08] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 08] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 08] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 08] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 08] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 08] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 09] [INFO] Fetching page 3:  https://greenice.com/products.json?limit=250&page=3
+[2026-03-11 07:00: 09] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=3
+[2026-03-11 07:00: 09] [INFO] cURL response - HTTP 200, Response length: 1133554 bytes, Error: 
+[2026-03-11 07:00: 09] [INFO] Successfully decoded JSON with 250 products
+[2026-03-11 07:00: 09] [INFO] Found 250 products on page 3
+[2026-03-11 07:00: 10] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 10] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 10] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 10] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 10] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 10] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 10] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 10] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 11] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 11] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 11] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 11] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 11] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 11] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 11] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 12] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 12] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 12] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 12] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 12] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 13] [INFO] Fetching page 4:  https://greenice.com/products.json?limit=250&page=4
+[2026-03-11 07:00: 13] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=4
+[2026-03-11 07:00: 13] [INFO] cURL response - HTTP 200, Response length: 673657 bytes, Error: 
+[2026-03-11 07:00: 13] [INFO] Successfully decoded JSON with 250 products
+[2026-03-11 07:00: 13] [INFO] Found 250 products on page 4
+[2026-03-11 07:00: 14] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 14] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 14] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 14] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 14] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 14] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 14] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 14] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 14] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 15] [INFO] Fetching page 5:  https://greenice.com/products.json?limit=250&page=5
+[2026-03-11 07:00: 15] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=5
+[2026-03-11 07:00: 15] [INFO] cURL response - HTTP 200, Response length: 802298 bytes, Error: 
+[2026-03-11 07:00: 15] [INFO] Successfully decoded JSON with 250 products
+[2026-03-11 07:00: 15] [INFO] Found 250 products on page 5
+[2026-03-11 07:00: 16] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 16] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 16] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 16] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 20] [INFO] Fetching page 6:  https://greenice.com/products.json?limit=250&page=6
+[2026-03-11 07:00: 20] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=6
+[2026-03-11 07:00: 20] [INFO] cURL response - HTTP 200, Response length: 700524 bytes, Error: 
+[2026-03-11 07:00: 20] [INFO] Successfully decoded JSON with 250 products
+[2026-03-11 07:00: 20] [INFO] Found 250 products on page 6
+[2026-03-11 07:00: 21] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 21] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 21] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 21] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 21] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 25] [INFO] Fetching page 7:  https://greenice.com/products.json?limit=250&page=7
+[2026-03-11 07:00: 25] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=7
+[2026-03-11 07:00: 25] [INFO] cURL response - HTTP 200, Response length: 709293 bytes, Error: 
+[2026-03-11 07:00: 25] [INFO] Successfully decoded JSON with 250 products
+[2026-03-11 07:00: 25] [INFO] Found 250 products on page 7
+[2026-03-11 07:00: 25] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 25] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 25] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 25] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 25] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 25] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 25] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 25] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 26] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 26] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 26] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 26] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 28] [INFO] Fetching page 8:  https://greenice.com/products.json?limit=250&page=8
+[2026-03-11 07:00: 28] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=8
+[2026-03-11 07:00: 29] [INFO] cURL response - HTTP 200, Response length: 527578 bytes, Error: 
+[2026-03-11 07:00: 29] [INFO] Successfully decoded JSON with 250 products
+[2026-03-11 07:00: 29] [INFO] Found 250 products on page 8
+[2026-03-11 07:00: 29] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 29] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 29] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 29] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 29] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 29] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 31] [INFO] Fetching page 9:  https://greenice.com/products.json?limit=250&page=9
+[2026-03-11 07:00: 31] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=9
+[2026-03-11 07:00: 32] [INFO] cURL response - HTTP 200, Response length: 532099 bytes, Error: 
+[2026-03-11 07:00: 32] [INFO] Successfully decoded JSON with 250 products
+[2026-03-11 07:00: 32] [INFO] Found 250 products on page 9
+[2026-03-11 07:00: 32] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 32] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 32] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 32] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 32] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 32] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 33] [INFO] Fetching page 10:  https://greenice.com/products.json?limit=250&page=10
+[2026-03-11 07:00: 33] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=10
+[2026-03-11 07:00: 34] [INFO] cURL response - HTTP 200, Response length: 724232 bytes, Error: 
+[2026-03-11 07:00: 34] [INFO] Successfully decoded JSON with 250 products
+[2026-03-11 07:00: 34] [INFO] Found 250 products on page 10
+[2026-03-11 07:00: 34] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 34] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 36] [INFO] Fetching page 11:  https://greenice.com/products.json?limit=250&page=11
+[2026-03-11 07:00: 36] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=11
+[2026-03-11 07:00: 36] [INFO] cURL response - HTTP 200, Response length: 1068639 bytes, Error: 
+[2026-03-11 07:00: 36] [INFO] Successfully decoded JSON with 250 products
+[2026-03-11 07:00: 36] [INFO] Found 250 products on page 11
+[2026-03-11 07:00: 36] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 37] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 37] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 37] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 37] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 37] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 37] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 37] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 37] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 37] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 37] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 40] [INFO] Fetching page 12:  https://greenice.com/products.json?limit=250&page=12
+[2026-03-11 07:00: 40] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=12
+[2026-03-11 07:00: 41] [INFO] cURL response - HTTP 200, Response length: 794633 bytes, Error: 
+[2026-03-11 07:00: 41] [INFO] Successfully decoded JSON with 250 products
+[2026-03-11 07:00: 41] [INFO] Found 250 products on page 12
+[2026-03-11 07:00: 41] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 41] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 41] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 42] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 45] [INFO] Fetching page 13:  https://greenice.com/products.json?limit=250&page=13
+[2026-03-11 07:00: 45] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=13
+[2026-03-11 07:00: 45] [INFO] cURL response - HTTP 200, Response length: 870011 bytes, Error: 
+[2026-03-11 07:00: 45] [INFO] Successfully decoded JSON with 250 products
+[2026-03-11 07:00: 45] [INFO] Found 250 products on page 13
+[2026-03-11 07:00: 45] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 45] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 45] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 45] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 45] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 45] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 45] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 46] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 46] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 46] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 46] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 46] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 46] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 46] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 46] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 49] [INFO] Fetching page 14:  https://greenice.com/products.json?limit=250&page=14
+[2026-03-11 07:00: 49] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=14
+[2026-03-11 07:00: 49] [INFO] cURL response - HTTP 200, Response length: 660300 bytes, Error: 
+[2026-03-11 07:00: 49] [INFO] Successfully decoded JSON with 250 products
+[2026-03-11 07:00: 49] [INFO] Found 250 products on page 14
+[2026-03-11 07:00: 50] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 50] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 50] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 50] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 50] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 53] [INFO] Fetching page 15:  https://greenice.com/products.json?limit=250&page=15
+[2026-03-11 07:00: 53] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=15
+[2026-03-11 07:00: 53] [INFO] cURL response - HTTP 200, Response length: 1168601 bytes, Error: 
+[2026-03-11 07:00: 53] [INFO] Successfully decoded JSON with 250 products
+[2026-03-11 07:00: 53] [INFO] Found 250 products on page 15
+[2026-03-11 07:00: 54] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 54] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 54] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 54] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 57] [INFO] Fetching page 16:  https://greenice.com/products.json?limit=250&page=16
+[2026-03-11 07:00: 57] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=16
+[2026-03-11 07:00: 57] [INFO] cURL response - HTTP 200, Response length: 931780 bytes, Error: 
+[2026-03-11 07:00: 57] [INFO] Successfully decoded JSON with 250 products
+[2026-03-11 07:00: 57] [INFO] Found 250 products on page 16
+[2026-03-11 07:00: 58] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 58] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 58] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 58] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:00: 59] [INFO] Fetching page 17:  https://greenice.com/products.json?limit=250&page=17
+[2026-03-11 07:00: 59] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=17
+[2026-03-11 07:01: 00] [INFO] cURL response - HTTP 200, Response length: 1184415 bytes, Error: 
+[2026-03-11 07:01: 00] [INFO] Successfully decoded JSON with 250 products
+[2026-03-11 07:01: 00] [INFO] Found 250 products on page 17
+[2026-03-11 07:01: 00] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:01: 00] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:01: 00] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:01: 00] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:01: 00] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:01: 00] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:01: 00] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:01: 00] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:01: 00] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:01: 00] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:01: 02] [INFO] Fetching page 18:  https://greenice.com/products.json?limit=250&page=18
+[2026-03-11 07:01: 02] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=18
+[2026-03-11 07:01: 02] [INFO] cURL response - HTTP 200, Response length: 572260 bytes, Error: 
+[2026-03-11 07:01: 02] [INFO] Successfully decoded JSON with 117 products
+[2026-03-11 07:01: 02] [INFO] Found 117 products on page 18
+[2026-03-11 07:01: 03] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-11 07:01: 03] [INFO] Scrape completed. Total products: 4367
+[2026-03-11 07:01: 03] [INFO] No price changes detected
+[2026-03-11 07:01: 03] [ERROR] Error creating/updating product: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null
+[2026-03-11 07:01: 03] [ERROR] Error saving product:  SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null
+[2026-03-11 07:01: 03] [ERROR] Error creating/updating product: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null
+[2026-03-11 07:01: 03] [ERROR] Error saving product:  SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null
+[2026-03-11 07:01: 04] [ERROR] Error creating/updating product: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null
+[2026-03-11 07:01: 04] [ERROR] Error saving product:  SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null
+[2026-03-11 07:01: 04] [ERROR] Error creating/updating product: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null
+[2026-03-11 07:01: 04] [ERROR] Error saving product:  SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null
+[2026-03-11 07:01: 04] [ERROR] Error creating/updating product: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null
+[2026-03-11 07:01: 04] [ERROR] Error saving product:  SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null
+[2026-03-11 07:01: 04] [INFO] Shopify scrape completed - Found:  5, Created: 0, Updated:  0
+[2026-03-11 19:00: 02] [INFO] API Request: POST - Endpoint: products/scrape-shopify
+[2026-03-11 19:00: 02] [INFO] ProductController - Method: POST, Path: products/scrape-shopify
+[2026-03-11 19:00: 02] [INFO] Starting Shopify scrape - max products: 10000
+[2026-03-11 19:00: 02] [INFO] Starting Shopify JSON scrape - max products: 10000
+[2026-03-11 19:00: 02] [INFO] Fetching page 1:  https://greenice.com/products.json?limit=250&page=1
+[2026-03-11 19:00: 02] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=1
+[2026-03-11 19:00: 03] [INFO] cURL response - HTTP 200, Response length: 1257618 bytes, Error: 
+[2026-03-11 19:00: 03] [INFO] Successfully decoded JSON with 250 products
+[2026-03-11 19:00: 03] [INFO] Found 250 products on page 1
+[2026-03-11 19:00: 07] [INFO] Fetching page 2:  https://greenice.com/products.json?limit=250&page=2
+[2026-03-11 19:00: 07] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=2
+[2026-03-11 19:00: 07] [INFO] cURL response - HTTP 200, Response length: 957965 bytes, Error: 
+[2026-03-11 19:00: 07] [INFO] Successfully decoded JSON with 250 products
+[2026-03-11 19:00: 07] [INFO] Found 250 products on page 2
+[2026-03-11 19:00: 11] [INFO] Fetching page 3:  https://greenice.com/products.json?limit=250&page=3
+[2026-03-11 19:00: 11] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=3
+[2026-03-11 19:00: 12] [INFO] cURL response - HTTP 200, Response length: 1133554 bytes, Error: 
+[2026-03-11 19:00: 12] [INFO] Successfully decoded JSON with 250 products
+[2026-03-11 19:00: 12] [INFO] Found 250 products on page 3
+[2026-03-11 19:00: 14] [INFO] Fetching page 4:  https://greenice.com/products.json?limit=250&page=4
+[2026-03-11 19:00: 14] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=4
+[2026-03-11 19:00: 14] [INFO] cURL response - HTTP 200, Response length: 673657 bytes, Error: 
+[2026-03-11 19:00: 14] [INFO] Successfully decoded JSON with 250 products
+[2026-03-11 19:00: 14] [INFO] Found 250 products on page 4
+[2026-03-11 19:00: 16] [INFO] Fetching page 5:  https://greenice.com/products.json?limit=250&page=5
+[2026-03-11 19:00: 16] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=5
+[2026-03-11 19:00: 16] [INFO] cURL response - HTTP 200, Response length: 802299 bytes, Error: 
+[2026-03-11 19:00: 16] [INFO] Successfully decoded JSON with 250 products
+[2026-03-11 19:00: 16] [INFO] Found 250 products on page 5
+[2026-03-11 19:00: 21] [INFO] Fetching page 6:  https://greenice.com/products.json?limit=250&page=6
+[2026-03-11 19:00: 21] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=6
+[2026-03-11 19:00: 21] [INFO] cURL response - HTTP 200, Response length: 700524 bytes, Error: 
+[2026-03-11 19:00: 21] [INFO] Successfully decoded JSON with 250 products
+[2026-03-11 19:00: 21] [INFO] Found 250 products on page 6
+[2026-03-11 19:00: 23] [INFO] Fetching page 7:  https://greenice.com/products.json?limit=250&page=7
+[2026-03-11 19:00: 23] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=7
+[2026-03-11 19:00: 24] [INFO] cURL response - HTTP 200, Response length: 709293 bytes, Error: 
+[2026-03-11 19:00: 24] [INFO] Successfully decoded JSON with 250 products
+[2026-03-11 19:00: 24] [INFO] Found 250 products on page 7
+[2026-03-11 19:00: 27] [INFO] Fetching page 8:  https://greenice.com/products.json?limit=250&page=8
+[2026-03-11 19:00: 27] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=8
+[2026-03-11 19:00: 27] [INFO] cURL response - HTTP 200, Response length: 527578 bytes, Error: 
+[2026-03-11 19:00: 27] [INFO] Successfully decoded JSON with 250 products
+[2026-03-11 19:00: 27] [INFO] Found 250 products on page 8
+[2026-03-11 19:00: 31] [INFO] Fetching page 9:  https://greenice.com/products.json?limit=250&page=9
+[2026-03-11 19:00: 31] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=9
+[2026-03-11 19:00: 31] [INFO] cURL response - HTTP 200, Response length: 532101 bytes, Error: 
+[2026-03-11 19:00: 31] [INFO] Successfully decoded JSON with 250 products
+[2026-03-11 19:00: 31] [INFO] Found 250 products on page 9
+[2026-03-11 19:00: 35] [INFO] Fetching page 10:  https://greenice.com/products.json?limit=250&page=10
+[2026-03-11 19:00: 35] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=10
+[2026-03-11 19:00: 35] [INFO] cURL response - HTTP 200, Response length: 724232 bytes, Error: 
+[2026-03-11 19:00: 35] [INFO] Successfully decoded JSON with 250 products
+[2026-03-11 19:00: 35] [INFO] Found 250 products on page 10
+[2026-03-11 19:00: 39] [INFO] Fetching page 11:  https://greenice.com/products.json?limit=250&page=11
+[2026-03-11 19:00: 39] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=11
+[2026-03-11 19:00: 40] [INFO] cURL response - HTTP 200, Response length: 1068639 bytes, Error: 
+[2026-03-11 19:00: 40] [INFO] Successfully decoded JSON with 250 products
+[2026-03-11 19:00: 40] [INFO] Found 250 products on page 11
+[2026-03-11 19:00: 42] [INFO] Fetching page 12:  https://greenice.com/products.json?limit=250&page=12
+[2026-03-11 19:00: 42] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=12
+[2026-03-11 19:00: 42] [INFO] cURL response - HTTP 200, Response length: 794633 bytes, Error: 
+[2026-03-11 19:00: 42] [INFO] Successfully decoded JSON with 250 products
+[2026-03-11 19:00: 42] [INFO] Found 250 products on page 12
+[2026-03-11 19:00: 45] [INFO] Fetching page 13:  https://greenice.com/products.json?limit=250&page=13
+[2026-03-11 19:00: 45] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=13
+[2026-03-11 19:00: 46] [INFO] cURL response - HTTP 200, Response length: 870011 bytes, Error: 
+[2026-03-11 19:00: 46] [INFO] Successfully decoded JSON with 250 products
+[2026-03-11 19:00: 46] [INFO] Found 250 products on page 13
+[2026-03-11 19:00: 50] [INFO] Fetching page 14:  https://greenice.com/products.json?limit=250&page=14
+[2026-03-11 19:00: 50] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=14
+[2026-03-11 19:00: 51] [INFO] cURL response - HTTP 200, Response length: 660300 bytes, Error: 
+[2026-03-11 19:00: 51] [INFO] Successfully decoded JSON with 250 products
+[2026-03-11 19:00: 51] [INFO] Found 250 products on page 14
+[2026-03-11 19:00: 53] [INFO] Fetching page 15:  https://greenice.com/products.json?limit=250&page=15
+[2026-03-11 19:00: 53] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=15
+[2026-03-11 19:00: 53] [INFO] cURL response - HTTP 200, Response length: 1168601 bytes, Error: 
+[2026-03-11 19:00: 53] [INFO] Successfully decoded JSON with 250 products
+[2026-03-11 19:00: 53] [INFO] Found 250 products on page 15
+[2026-03-11 19:00: 55] [INFO] Fetching page 16:  https://greenice.com/products.json?limit=250&page=16
+[2026-03-11 19:00: 55] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=16
+[2026-03-11 19:00: 56] [INFO] cURL response - HTTP 200, Response length: 931780 bytes, Error: 
+[2026-03-11 19:00: 56] [INFO] Successfully decoded JSON with 250 products
+[2026-03-11 19:00: 56] [INFO] Found 250 products on page 16
+[2026-03-11 19:00: 58] [INFO] Fetching page 17:  https://greenice.com/products.json?limit=250&page=17
+[2026-03-11 19:00: 58] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=17
+[2026-03-11 19:00: 58] [INFO] cURL response - HTTP 200, Response length: 1184415 bytes, Error: 
+[2026-03-11 19:00: 58] [INFO] Successfully decoded JSON with 250 products
+[2026-03-11 19:00: 58] [INFO] Found 250 products on page 17
+[2026-03-11 19:01: 02] [INFO] Fetching page 18:  https://greenice.com/products.json?limit=250&page=18
+[2026-03-11 19:01: 02] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=18
+[2026-03-11 19:01: 04] [INFO] cURL response - HTTP 200, Response length: 572260 bytes, Error: 
+[2026-03-11 19:01: 04] [INFO] Successfully decoded JSON with 117 products
+[2026-03-11 19:01: 04] [INFO] Found 117 products on page 18
+[2026-03-11 19:01: 05] [INFO] Scrape completed. Total products: 4367
+[2026-03-11 19:01: 05] [INFO] No price changes detected
+[2026-03-11 19:01: 05] [ERROR] Error creating/updating product: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null
+[2026-03-11 19:01: 05] [ERROR] Error saving product:  SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null
+[2026-03-11 19:01: 05] [ERROR] Error creating/updating product: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null
+[2026-03-11 19:01: 05] [ERROR] Error saving product:  SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null
+[2026-03-11 19:01: 05] [ERROR] Error creating/updating product: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null
+[2026-03-11 19:01: 05] [ERROR] Error saving product:  SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null
+[2026-03-11 19:01: 05] [ERROR] Error creating/updating product: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null
+[2026-03-11 19:01: 05] [ERROR] Error saving product:  SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null
+[2026-03-11 19:01: 05] [ERROR] Error creating/updating product: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null
+[2026-03-11 19:01: 05] [ERROR] Error saving product:  SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null
+[2026-03-11 19:01: 05] [INFO] Shopify scrape completed - Found:  5, Created: 0, Updated:  0
+[2026-03-12 07:00: 01] [INFO] API Request: POST - Endpoint: products/scrape-shopify
+[2026-03-12 07:00: 01] [INFO] ProductController - Method: POST, Path: products/scrape-shopify
+[2026-03-12 07:00: 02] [INFO] Starting Shopify scrape - max products: 10000
+[2026-03-12 07:00: 02] [INFO] Starting Shopify JSON scrape - max products: 10000
+[2026-03-12 07:00: 02] [INFO] Fetching page 1:  https://greenice.com/products.json?limit=250&page=1
+[2026-03-12 07:00: 02] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=1
+[2026-03-12 07:00: 03] [INFO] cURL response - HTTP 200, Response length: 1257620 bytes, Error: 
+[2026-03-12 07:00: 03] [INFO] Successfully decoded JSON with 250 products
+[2026-03-12 07:00: 03] [INFO] Found 250 products on page 1
+[2026-03-12 07:00: 03] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 04] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 04] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 04] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 04] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 04] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 04] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 04] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 04] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 04] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 05] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 05] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 05] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 05] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 05] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 05] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 05] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 05] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 05] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 05] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 05] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 05] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 05] [INFO] Fetching page 2:  https://greenice.com/products.json?limit=250&page=2
+[2026-03-12 07:00: 05] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=2
+[2026-03-12 07:00: 06] [INFO] cURL response - HTTP 200, Response length: 960744 bytes, Error: 
+[2026-03-12 07:00: 06] [INFO] Successfully decoded JSON with 250 products
+[2026-03-12 07:00: 06] [INFO] Found 250 products on page 2
+[2026-03-12 07:00: 06] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 06] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 06] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 06] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 07] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 07] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 07] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 07] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 07] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 08] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 09] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 09] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 09] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 09] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 09] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 10] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 10] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 10] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 10] [INFO] Fetching page 3:  https://greenice.com/products.json?limit=250&page=3
+[2026-03-12 07:00: 10] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=3
+[2026-03-12 07:00: 10] [INFO] cURL response - HTTP 200, Response length: 1128276 bytes, Error: 
+[2026-03-12 07:00: 10] [INFO] Successfully decoded JSON with 250 products
+[2026-03-12 07:00: 10] [INFO] Found 250 products on page 3
+[2026-03-12 07:00: 12] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 12] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 12] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 13] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 13] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 13] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 13] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 13] [INFO] Fetching page 4:  https://greenice.com/products.json?limit=250&page=4
+[2026-03-12 07:00: 13] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=4
+[2026-03-12 07:00: 14] [INFO] cURL response - HTTP 200, Response length: 677175 bytes, Error: 
+[2026-03-12 07:00: 14] [INFO] Successfully decoded JSON with 250 products
+[2026-03-12 07:00: 14] [INFO] Found 250 products on page 4
+[2026-03-12 07:00: 14] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 15] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 15] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 15] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 15] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 15] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 16] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 17] [INFO] Fetching page 5:  https://greenice.com/products.json?limit=250&page=5
+[2026-03-12 07:00: 17] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=5
+[2026-03-12 07:00: 18] [INFO] cURL response - HTTP 200, Response length: 800620 bytes, Error: 
+[2026-03-12 07:00: 18] [INFO] Successfully decoded JSON with 250 products
+[2026-03-12 07:00: 18] [INFO] Found 250 products on page 5
+[2026-03-12 07:00: 18] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 18] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 21] [INFO] Fetching page 6:  https://greenice.com/products.json?limit=250&page=6
+[2026-03-12 07:00: 21] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=6
+[2026-03-12 07:00: 21] [INFO] cURL response - HTTP 200, Response length: 703493 bytes, Error: 
+[2026-03-12 07:00: 21] [INFO] Successfully decoded JSON with 250 products
+[2026-03-12 07:00: 21] [INFO] Found 250 products on page 6
+[2026-03-12 07:00: 22] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 22] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 23] [INFO] Fetching page 7:  https://greenice.com/products.json?limit=250&page=7
+[2026-03-12 07:00: 23] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=7
+[2026-03-12 07:00: 23] [INFO] cURL response - HTTP 200, Response length: 705399 bytes, Error: 
+[2026-03-12 07:00: 23] [INFO] Successfully decoded JSON with 250 products
+[2026-03-12 07:00: 23] [INFO] Found 250 products on page 7
+[2026-03-12 07:00: 24] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 25] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 25] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 26] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 26] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 26] [INFO] Fetching page 8:  https://greenice.com/products.json?limit=250&page=8
+[2026-03-12 07:00: 26] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=8
+[2026-03-12 07:00: 26] [INFO] cURL response - HTTP 200, Response length: 524919 bytes, Error: 
+[2026-03-12 07:00: 26] [INFO] Successfully decoded JSON with 250 products
+[2026-03-12 07:00: 26] [INFO] Found 250 products on page 8
+[2026-03-12 07:00: 27] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 27] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 28] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 28] [INFO] Fetching page 9:  https://greenice.com/products.json?limit=250&page=9
+[2026-03-12 07:00: 28] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=9
+[2026-03-12 07:00: 29] [INFO] cURL response - HTTP 200, Response length: 536401 bytes, Error: 
+[2026-03-12 07:00: 29] [INFO] Successfully decoded JSON with 250 products
+[2026-03-12 07:00: 29] [INFO] Found 250 products on page 9
+[2026-03-12 07:00: 30] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 30] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 30] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 30] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 32] [INFO] Fetching page 10:  https://greenice.com/products.json?limit=250&page=10
+[2026-03-12 07:00: 32] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=10
+[2026-03-12 07:00: 32] [INFO] cURL response - HTTP 200, Response length: 727699 bytes, Error: 
+[2026-03-12 07:00: 32] [INFO] Successfully decoded JSON with 250 products
+[2026-03-12 07:00: 32] [INFO] Found 250 products on page 10
+[2026-03-12 07:00: 32] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 36] [INFO] Fetching page 11:  https://greenice.com/products.json?limit=250&page=11
+[2026-03-12 07:00: 36] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=11
+[2026-03-12 07:00: 37] [INFO] cURL response - HTTP 200, Response length: 1081456 bytes, Error: 
+[2026-03-12 07:00: 37] [INFO] Successfully decoded JSON with 250 products
+[2026-03-12 07:00: 37] [INFO] Found 250 products on page 11
+[2026-03-12 07:00: 38] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 38] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 38] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 41] [INFO] Fetching page 12:  https://greenice.com/products.json?limit=250&page=12
+[2026-03-12 07:00: 41] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=12
+[2026-03-12 07:00: 42] [INFO] cURL response - HTTP 200, Response length: 782381 bytes, Error: 
+[2026-03-12 07:00: 42] [INFO] Successfully decoded JSON with 250 products
+[2026-03-12 07:00: 42] [INFO] Found 250 products on page 12
+[2026-03-12 07:00: 42] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 43] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 43] [INFO] Fetching page 13:  https://greenice.com/products.json?limit=250&page=13
+[2026-03-12 07:00: 43] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=13
+[2026-03-12 07:00: 44] [INFO] cURL response - HTTP 200, Response length: 860851 bytes, Error: 
+[2026-03-12 07:00: 44] [INFO] Successfully decoded JSON with 250 products
+[2026-03-12 07:00: 44] [INFO] Found 250 products on page 13
+[2026-03-12 07:00: 44] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 45] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 45] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 45] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 45] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 45] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 45] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 45] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 45] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 45] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 45] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 45] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 47] [INFO] Fetching page 14:  https://greenice.com/products.json?limit=250&page=14
+[2026-03-12 07:00: 47] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=14
+[2026-03-12 07:00: 48] [INFO] cURL response - HTTP 200, Response length: 657649 bytes, Error: 
+[2026-03-12 07:00: 48] [INFO] Successfully decoded JSON with 250 products
+[2026-03-12 07:00: 48] [INFO] Found 250 products on page 14
+[2026-03-12 07:00: 48] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 48] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 48] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 48] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 49] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 51] [INFO] Fetching page 15:  https://greenice.com/products.json?limit=250&page=15
+[2026-03-12 07:00: 51] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=15
+[2026-03-12 07:00: 52] [INFO] cURL response - HTTP 200, Response length: 1239581 bytes, Error: 
+[2026-03-12 07:00: 52] [INFO] Successfully decoded JSON with 250 products
+[2026-03-12 07:00: 52] [INFO] Found 250 products on page 15
+[2026-03-12 07:00: 52] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 53] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 54] [INFO] Fetching page 16:  https://greenice.com/products.json?limit=250&page=16
+[2026-03-12 07:00: 54] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=16
+[2026-03-12 07:00: 54] [INFO] cURL response - HTTP 200, Response length: 877969 bytes, Error: 
+[2026-03-12 07:00: 54] [INFO] Successfully decoded JSON with 250 products
+[2026-03-12 07:00: 54] [INFO] Found 250 products on page 16
+[2026-03-12 07:00: 58] [INFO] Fetching page 17:  https://greenice.com/products.json?limit=250&page=17
+[2026-03-12 07:00: 58] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=17
+[2026-03-12 07:00: 58] [INFO] cURL response - HTTP 200, Response length: 1194026 bytes, Error: 
+[2026-03-12 07:00: 59] [INFO] Successfully decoded JSON with 250 products
+[2026-03-12 07:00: 59] [INFO] Found 250 products on page 17
+[2026-03-12 07:00: 59] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 59] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 59] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 59] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:00: 59] [ERROR] Error saving product: SQLSTATE[HY000]: General error: 1906 The value specified for generated column 'price_change' in table 'price_history' has been ignored
+[2026-03-12 07:01: 00] [INFO] Fetching page 18:  https://greenice.com/products.json?limit=250&page=18
+[2026-03-12 07:01: 00] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=18
+[2026-03-12 07:01: 01] [INFO] cURL response - HTTP 200, Response length: 530609 bytes, Error: 
+[2026-03-12 07:01: 01] [INFO] Successfully decoded JSON with 109 products
+[2026-03-12 07:01: 01] [INFO] Found 109 products on page 18
+[2026-03-12 07:01: 02] [INFO] Scrape completed. Total products: 4359
+[2026-03-12 07:01: 02] [INFO] No price changes detected
+[2026-03-12 07:01: 02] [ERROR] Error creating/updating product: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null
+[2026-03-12 07:01: 02] [ERROR] Error saving product:  SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null
+[2026-03-12 07:01: 02] [ERROR] Error creating/updating product: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null
+[2026-03-12 07:01: 02] [ERROR] Error saving product:  SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null
+[2026-03-12 07:01: 02] [ERROR] Error creating/updating product: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null
+[2026-03-12 07:01: 02] [ERROR] Error saving product:  SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null
+[2026-03-12 07:01: 02] [ERROR] Error creating/updating product: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null
+[2026-03-12 07:01: 02] [ERROR] Error saving product:  SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null
+[2026-03-12 07:01: 02] [ERROR] Error creating/updating product: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null
+[2026-03-12 07:01: 02] [ERROR] Error saving product:  SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null
+[2026-03-12 07:01: 02] [INFO] Shopify scrape completed - Found:  5, Created: 0, Updated:  0
+[2026-03-12 13:50: 00] [INFO] API Request: GET - Endpoint: products/stats
+[2026-03-12 13:50: 00] [INFO] ProductController - Method: GET, Path: products/stats
+[2026-03-12 13:50: 00] [INFO] API Request: GET - Endpoint: products
+[2026-03-12 13:50: 00] [INFO] ProductController - Method: GET, Path: products
+[2026-03-12 13:50: 00] [INFO] Listed 4716 products with price history
+[2026-03-12 13:50: 04] [INFO] API Request: POST - Endpoint: products/scrape-shopify
+[2026-03-12 13:50: 04] [INFO] ProductController - Method: POST, Path: products/scrape-shopify
+[2026-03-12 13:50: 04] [INFO] Starting Shopify scrape - max products: 10000
+[2026-03-12 13:50: 04] [INFO] Starting Shopify JSON scrape - max products: 10000
+[2026-03-12 13:50: 04] [INFO] Fetching page 1:  https://greenice.com/products.json?limit=250&page=1
+[2026-03-12 13:50: 04] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=1
+[2026-03-12 13:50: 04] [INFO] cURL response - HTTP 200, Response length: 1257620 bytes, Error: 
+[2026-03-12 13:50: 04] [INFO] Successfully decoded JSON with 250 products
+[2026-03-12 13:50: 04] [INFO] Found 250 products on page 1
+[2026-03-12 13:50: 09] [INFO] Fetching page 2:  https://greenice.com/products.json?limit=250&page=2
+[2026-03-12 13:50: 09] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=2
+[2026-03-12 13:50: 09] [INFO] cURL response - HTTP 200, Response length: 960744 bytes, Error: 
+[2026-03-12 13:50: 09] [INFO] Successfully decoded JSON with 250 products
+[2026-03-12 13:50: 09] [INFO] Found 250 products on page 2
+[2026-03-12 13:50: 12] [INFO] Fetching page 3:  https://greenice.com/products.json?limit=250&page=3
+[2026-03-12 13:50: 12] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=3
+[2026-03-12 13:50: 12] [INFO] cURL response - HTTP 200, Response length: 1128276 bytes, Error: 
+[2026-03-12 13:50: 12] [INFO] Successfully decoded JSON with 250 products
+[2026-03-12 13:50: 12] [INFO] Found 250 products on page 3
+[2026-03-12 13:50: 15] [INFO] Fetching page 4:  https://greenice.com/products.json?limit=250&page=4
+[2026-03-12 13:50: 15] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=4
+[2026-03-12 13:50: 15] [INFO] cURL response - HTTP 200, Response length: 677175 bytes, Error: 
+[2026-03-12 13:50: 15] [INFO] Successfully decoded JSON with 250 products
+[2026-03-12 13:50: 15] [INFO] Found 250 products on page 4
+[2026-03-12 13:50: 18] [INFO] Fetching page 5:  https://greenice.com/products.json?limit=250&page=5
+[2026-03-12 13:50: 18] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=5
+[2026-03-12 13:50: 19] [INFO] cURL response - HTTP 200, Response length: 800620 bytes, Error: 
+[2026-03-12 13:50: 19] [INFO] Successfully decoded JSON with 250 products
+[2026-03-12 13:50: 19] [INFO] Found 250 products on page 5
+[2026-03-12 13:50: 21] [INFO] Fetching page 6:  https://greenice.com/products.json?limit=250&page=6
+[2026-03-12 13:50: 21] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=6
+[2026-03-12 13:50: 22] [INFO] cURL response - HTTP 200, Response length: 703493 bytes, Error: 
+[2026-03-12 13:50: 22] [INFO] Successfully decoded JSON with 250 products
+[2026-03-12 13:50: 22] [INFO] Found 250 products on page 6
+[2026-03-12 13:50: 23] [INFO] Fetching page 7:  https://greenice.com/products.json?limit=250&page=7
+[2026-03-12 13:50: 23] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=7
+[2026-03-12 13:50: 25] [INFO] cURL response - HTTP 200, Response length: 705399 bytes, Error: 
+[2026-03-12 13:50: 25] [INFO] Successfully decoded JSON with 250 products
+[2026-03-12 13:50: 25] [INFO] Found 250 products on page 7
+[2026-03-12 13:50: 27] [INFO] Fetching page 8:  https://greenice.com/products.json?limit=250&page=8
+[2026-03-12 13:50: 27] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=8
+[2026-03-12 13:50: 28] [INFO] cURL response - HTTP 200, Response length: 524919 bytes, Error: 
+[2026-03-12 13:50: 28] [INFO] Successfully decoded JSON with 250 products
+[2026-03-12 13:50: 28] [INFO] Found 250 products on page 8
+[2026-03-12 13:50: 30] [INFO] Fetching page 9:  https://greenice.com/products.json?limit=250&page=9
+[2026-03-12 13:50: 30] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=9
+[2026-03-12 13:50: 31] [INFO] cURL response - HTTP 200, Response length: 536401 bytes, Error: 
+[2026-03-12 13:50: 31] [INFO] Successfully decoded JSON with 250 products
+[2026-03-12 13:50: 31] [INFO] Found 250 products on page 9
+[2026-03-12 13:50: 34] [INFO] Fetching page 10:  https://greenice.com/products.json?limit=250&page=10
+[2026-03-12 13:50: 34] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=10
+[2026-03-12 13:50: 35] [INFO] cURL response - HTTP 200, Response length: 727699 bytes, Error: 
+[2026-03-12 13:50: 35] [INFO] Successfully decoded JSON with 250 products
+[2026-03-12 13:50: 35] [INFO] Found 250 products on page 10
+[2026-03-12 13:50: 39] [INFO] Fetching page 11:  https://greenice.com/products.json?limit=250&page=11
+[2026-03-12 13:50: 39] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=11
+[2026-03-12 13:50: 39] [INFO] cURL response - HTTP 200, Response length: 1081456 bytes, Error: 
+[2026-03-12 13:50: 39] [INFO] Successfully decoded JSON with 250 products
+[2026-03-12 13:50: 39] [INFO] Found 250 products on page 11
+[2026-03-12 13:50: 42] [INFO] Fetching page 12:  https://greenice.com/products.json?limit=250&page=12
+[2026-03-12 13:50: 42] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=12
+[2026-03-12 13:50: 42] [INFO] cURL response - HTTP 200, Response length: 782381 bytes, Error: 
+[2026-03-12 13:50: 42] [INFO] Successfully decoded JSON with 250 products
+[2026-03-12 13:50: 42] [INFO] Found 250 products on page 12
+[2026-03-12 13:50: 46] [INFO] Fetching page 13:  https://greenice.com/products.json?limit=250&page=13
+[2026-03-12 13:50: 46] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=13
+[2026-03-12 13:50: 46] [INFO] cURL response - HTTP 200, Response length: 860851 bytes, Error: 
+[2026-03-12 13:50: 46] [INFO] Successfully decoded JSON with 250 products
+[2026-03-12 13:50: 46] [INFO] Found 250 products on page 13
+[2026-03-12 13:50: 50] [INFO] Fetching page 14:  https://greenice.com/products.json?limit=250&page=14
+[2026-03-12 13:50: 50] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=14
+[2026-03-12 13:50: 51] [INFO] cURL response - HTTP 200, Response length: 657649 bytes, Error: 
+[2026-03-12 13:50: 51] [INFO] Successfully decoded JSON with 250 products
+[2026-03-12 13:50: 51] [INFO] Found 250 products on page 14
+[2026-03-12 13:50: 51] [INFO] API Request: GET - Endpoint: products/stats
+[2026-03-12 13:50: 51] [INFO] ProductController - Method: GET, Path: products/stats
+[2026-03-12 13:50: 51] [INFO] API Request: GET - Endpoint: products
+[2026-03-12 13:50: 51] [INFO] ProductController - Method: GET, Path: products
+[2026-03-12 13:50: 51] [INFO] Listed 4716 products with price history
+[2026-03-12 13:50: 54] [INFO] Fetching page 15:  https://greenice.com/products.json?limit=250&page=15
+[2026-03-12 13:50: 54] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=15
+[2026-03-12 13:50: 54] [INFO] cURL response - HTTP 200, Response length: 1239581 bytes, Error: 
+[2026-03-12 13:50: 54] [INFO] Successfully decoded JSON with 250 products
+[2026-03-12 13:50: 54] [INFO] Found 250 products on page 15
+[2026-03-12 13:50: 58] [INFO] Fetching page 16:  https://greenice.com/products.json?limit=250&page=16
+[2026-03-12 13:50: 58] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=16
+[2026-03-12 13:50: 59] [INFO] cURL response - HTTP 200, Response length: 877969 bytes, Error: 
+[2026-03-12 13:50: 59] [INFO] Successfully decoded JSON with 250 products
+[2026-03-12 13:50: 59] [INFO] Found 250 products on page 16
+[2026-03-12 13:51: 00] [INFO] API Request: GET - Endpoint: products/stats
+[2026-03-12 13:51: 00] [INFO] ProductController - Method: GET, Path: products/stats
+[2026-03-12 13:51: 03] [INFO] Fetching page 17:  https://greenice.com/products.json?limit=250&page=17
+[2026-03-12 13:51: 03] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=17
+[2026-03-12 13:51: 03] [INFO] cURL response - HTTP 200, Response length: 1194026 bytes, Error: 
+[2026-03-12 13:51: 03] [INFO] Successfully decoded JSON with 250 products
+[2026-03-12 13:51: 03] [INFO] Found 250 products on page 17
+[2026-03-12 13:51: 05] [INFO] Fetching page 18:  https://greenice.com/products.json?limit=250&page=18
+[2026-03-12 13:51: 05] [INFO] Attempting to fetch JSON from: https://greenice.com/products.json?limit=250&page=18
+[2026-03-12 13:51: 06] [INFO] cURL response - HTTP 200, Response length: 530609 bytes, Error: 
+[2026-03-12 13:51: 06] [INFO] Successfully decoded JSON with 109 products
+[2026-03-12 13:51: 06] [INFO] Found 109 products on page 18
+[2026-03-12 13:51: 06] [INFO] Scrape completed. Total products: 4359
+[2026-03-12 13:51: 06] [INFO] No price changes detected
+[2026-03-12 13:51: 06] [ERROR] Error creating/updating product: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null
+[2026-03-12 13:51: 06] [ERROR] Error saving product:  SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null
+[2026-03-12 13:51: 06] [ERROR] Error creating/updating product: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null
+[2026-03-12 13:51: 06] [ERROR] Error saving product:  SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null
+[2026-03-12 13:51: 06] [ERROR] Error creating/updating product: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null
+[2026-03-12 13:51: 06] [ERROR] Error saving product:  SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null
+[2026-03-12 13:51: 06] [ERROR] Error creating/updating product: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null
+[2026-03-12 13:51: 06] [ERROR] Error saving product:  SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null
+[2026-03-12 13:51: 06] [ERROR] Error creating/updating product: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null
+[2026-03-12 13:51: 06] [ERROR] Error saving product:  SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null
+[2026-03-12 13:51: 06] [INFO] Shopify scrape completed - Found:  5, Created: 0, Updated:  0
+[2026-03-12 13:51: 06] [INFO] API Request: GET - Endpoint: products
+[2026-03-12 13:51: 06] [INFO] API Request: GET - Endpoint: products/stats
+[2026-03-12 13:51: 06] [INFO] ProductController - Method: GET, Path: products
+[2026-03-12 13:51: 06] [INFO] ProductController - Method: GET, Path: products/stats
+[2026-03-12 13:51: 06] [INFO] Listed 4716 products with price history
+[2026-03-12 13:51: 52] [INFO] API Request: GET - Endpoint: products/stats
+[2026-03-12 13:51: 52] [INFO] ProductController - Method: GET, Path: products/stats
+[2026-03-12 13:52: 00] [INFO] API Request: GET - Endpoint: products/stats
+[2026-03-12 13:52: 00] [INFO] ProductController - Method: GET, Path: products/stats
+[2026-03-12 13:52: 52] [INFO] API Request: GET - Endpoint: products/stats
+[2026-03-12 13:52: 52] [INFO] ProductController - Method: GET, Path: products/stats
+[2026-03-12 13:53: 00] [INFO] API Request: GET - Endpoint: products/stats
+[2026-03-12 13:53: 00] [INFO] ProductController - Method: GET, Path: products/stats
+[2026-03-12 13:53: 16] [INFO] API Request: GET - Endpoint: products/stats
+[2026-03-12 13:53: 16] [INFO] ProductController - Method: GET, Path: products/stats
+[2026-03-12 13:53: 16] [INFO] API Request: GET - Endpoint: products
+[2026-03-12 13:53: 16] [INFO] ProductController - Method: GET, Path: products
+[2026-03-12 13:53: 16] [INFO] Listed 4716 products with price history
+[2026-03-12 13:57: 53] [INFO] API Request: GET - Endpoint: products/stats
+[2026-03-12 13:57: 53] [INFO] ProductController - Method: GET, Path: products/stats

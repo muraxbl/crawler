@@ -1,0 +1,448 @@
+<! DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenICE Price Monitor</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow:  0 10px 40px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 30px;
+            text-align:  center;
+        }
+        header h1 { font-size: 2.5em; margin-bottom: 10px; }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 30px;
+            background: #f5f5f5;
+        }
+        .stat-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .stat-card h3 { color: #666; font-size: 0.9em; margin-bottom: 10px; }
+        . stat-card . value { font-size: 2em; font-weight: bold; color: #4CAF50; }
+        .controls {
+            padding: 30px;
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        button {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius:  5px;
+            cursor:  pointer;
+            font-size:  1em;
+            transition:  all 0.3s;
+        }
+        button:hover { background: #45a049; transform: translateY(-2px); }
+        button:disabled { background:  #ccc; cursor: not-allowed; transform: none; }
+        input[type="text"], input[type="number"] {
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            font-size: 1em;
+            flex: 1;
+            min-width: 200px;
+        }
+        .products-table {
+            padding: 0 30px 30px 30px;
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 15px;
+            text-align:  left;
+            border-bottom:  1px solid #ddd;
+        }
+        th {
+            background: #4CAF50;
+            color:  white;
+            font-weight:  600;
+        }
+        tr:hover { background: #f5f5f5; }
+        .price { font-weight: bold; color: #4CAF50; font-size: 1.1em; }
+        .reference { color: #666; font-size: 0.9em; }
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+        }
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #4CAF50;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .error {
+            background: #f44336;
+            color: white;
+            padding: 15px;
+            margin: 20px 30px;
+            border-radius:  5px;
+        }
+        .success {
+            background: #4CAF50;
+            color: white;
+            padding: 15px;
+            margin: 20px 30px;
+            border-radius: 5px;
+        }
+        .view-history {
+            color: #4CAF50;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left:  0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+            z-index: 1000;
+        }
+        .modal-content {
+            background: white;
+            margin: 50px auto;
+            padding: 30px;
+            width: 90%;
+            max-width: 800px;
+            border-radius:  10px;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+        .close {
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+            color: #666;
+        }
+        . close:hover { color: #000; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌿 GreenICE Price Monitor</h1>
+            <p>Sistema de monitoreo de precios en tiempo real</p>
+        </header>
+        
+        <div class="stats" id="stats">
+            <div class="stat-card">
+                <h3>Total Productos</h3>
+                <div class="value" id="total-products">0</div>
+            </div>
+            <div class="stat-card">
+                <h3>Productos Activos</h3>
+                <div class="value" id="active-products">0</div>
+            </div>
+            <div class="stat-card">
+                <h3>Precio Promedio</h3>
+                <div class="value" id="avg-price">0€</div>
+            </div>
+            <div class="stat-card">
+                <h3>Última Actualización</h3>
+                <div class="value" id="last-update" style="font-size: 1em;">-</div>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <input type="text" id="product-url" placeholder="URL del producto de GreenICE">
+            <button onclick="addProduct()">Añadir Producto</button>
+            <button onclick="startFullScrape()">Escanear Catálogo Completo</button>
+            <button onclick="refreshProducts()">Actualizar Lista</button>
+        </div>
+        
+        <div id="message-container"></div>
+        
+        <div class="products-table">
+            <h2 style="margin-bottom: 20px;">Productos Monitoreados</h2>
+            <div id="loading" class="loading" style="display: none;">
+                <div class="spinner"></div>
+                <p>Cargando productos...</p>
+            </div>
+            <table id="products-table" style="display:none;">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Producto</th>
+                        <th>Referencia</th>
+                        <th>Precio Actual</th>
+                        <th>Última Actualización</th>
+                        <th>Historial</th>
+                    </tr>
+                </thead>
+                <tbody id="products-tbody">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+    <!-- Modal para historial de precios -->
+    <div id="history-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeHistoryModal()">&times;</span>
+            <h2>Historial de Precios</h2>
+            <div id="history-content"></div>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = '/api';
+        
+        // Cargar estadísticas y productos al iniciar
+        window.onload = () => {
+            loadStats();
+            loadProducts();
+            setInterval(loadStats, 60000); // Actualizar stats cada minuto
+        };
+        
+        function showMessage(message, type = 'success') {
+            const container = document.getElementById('message-container');
+            container.innerHTML = `<div class="${type}">${message}</div>`;
+            setTimeout(() => {
+                container.innerHTML = '';
+            }, 5000);
+        }
+        
+        async function loadStats() {
+            try {
+                const response = await fetch(`${API_BASE}/products/stats`);
+                const data = await response.json();
+                
+                if (data.success) {
+                    document.getElementById('total-products').textContent = data.data.total_products;
+                    document.getElementById('active-products').textContent = data.data.active_products;
+                    document.getElementById('avg-price').textContent = parseFloat(data.data.avg_price).toFixed(2) + '€';
+                    document.getElementById('last-update').textContent = new Date().toLocaleTimeString('es-ES');
+                }
+            } catch (error) {
+                console.error('Error loading stats:', error);
+            }
+        }
+        
+        async function loadProducts() {
+            const loading = document.getElementById('loading');
+            const table = document.getElementById('products-table');
+            const tbody = document.getElementById('products-tbody');
+            
+            loading.style.display = 'block';
+            table.style.display = 'none';
+            
+            try {
+                const response = await fetch(`${API_BASE}/products? limit=100`);
+                const data = await response.json();
+                
+                if (data.success) {
+                    tbody.innerHTML = '';
+                    
+                    data.data.forEach(product => {
+                        const row = document.createElement('tr');
+                        row.innerHTML = `
+                            <td>${product.id}</td>
+                            <td>
+                                <a href="${product.url}" target="_blank" style="color: #4CAF50; text-decoration: none;">
+                                    ${product. name}
+                                </a>
+                            </td>
+                            <td class="reference">${product.reference || '-'}</td>
+                            <td class="price">${parseFloat(product.current_price).toFixed(2)}€</td>
+                            <td>${new Date(product.last_scraped_at).toLocaleString('es-ES')}</td>
+                            <td>
+                                <span class="view-history" onclick="viewHistory(${product.id})">
+                                    Ver historial
+                                </span>
+                            </td>
+                        `;
+                        tbody.appendChild(row);
+                    });
+                    
+                    table.style.display = 'table';
+                }
+            } catch (error) {
+                console.error('Error loading products:', error);
+                showMessage('Error al cargar productos', 'error');
+            } finally {
+                loading.style.display = 'none';
+            }
+        }
+        
+        async function addProduct() {
+            const urlInput = document.getElementById('product-url');
+            const url = urlInput.value.trim();
+            
+            if (!url) {
+                showMessage('Por favor ingresa una URL', 'error');
+                return;
+            }
+            
+            if (! url.includes('greenice.com')) {
+                showMessage('La URL debe ser de greenice.com', 'error');
+                return;
+            }
+            
+            try {
+                const response = await fetch(`${API_BASE}/products`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ url })
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    showMessage('Producto añadido correctamente');
+                    urlInput.value = '';
+                    loadProducts();
+                    loadStats();
+                } else {
+                    showMessage(data.error || 'Error al añadir producto', 'error');
+                }
+            } catch (error) {
+                console.error('Error adding product:', error);
+                showMessage('Error al añadir producto', 'error');
+            }
+        }
+        
+        async function startFullScrape() {
+            if (!confirm('¿Estás seguro?  Esto puede tardar varios minutos y realizar muchas peticiones.')) {
+                return;
+            }
+            
+            showMessage('Iniciando escaneo completo del catálogo...  Esto puede tardar varios minutos.');
+            
+            try {
+                const response = await fetch(`${API_BASE}/products/scrape`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        base_url: 'https://greenice.com/',
+                        max_pages: 10
+                    })
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    showMessage(`Escaneo completado:  ${data.products_created} productos añadidos de ${data.products_found} encontrados`);
+                    loadProducts();
+                    loadStats();
+                } else {
+                    showMessage(data.error || 'Error al escanear catálogo', 'error');
+                }
+            } catch (error) {
+                console.error('Error scraping catalog:', error);
+                showMessage('Error al escanear catálogo', 'error');
+            }
+        }
+        
+        function refreshProducts() {
+            loadProducts();
+            loadStats();
+        }
+        
+        async function viewHistory(productId) {
+            try {
+                const response = await fetch(`${API_BASE}/products/${productId}`);
+                const data = await response.json();
+                
+                if (data.success) {
+                    const modal = document.getElementById('history-modal');
+                    const content = document.getElementById('history-content');
+                    
+                    let html = `
+                        <h3>${data.data.name}</h3>
+                        <p><strong>Precio actual:</strong> ${parseFloat(data.data.current_price).toFixed(2)}€</p>
+                        <br>
+                        <h4>Historial de cambios:</h4>
+                    `;
+                    
+                    if (data.price_history. length === 0) {
+                        html += '<p>No hay cambios de precio registrados</p>';
+                    } else {
+                        html += '<table style="width: 100%; margin-top: 15px;"><thead><tr><th>Fecha</th><th>Precio Anterior</th><th>Precio Nuevo</th><th>Cambio</th></tr></thead><tbody>';
+                        
+                        data.price_history.forEach(history => {
+                            const changeClass = history.price_change > 0 ? 'color:  red' : 'color: green';
+                            const arrow = history.price_change > 0 ? '↑' : '↓';
+                            
+                            html += `
+                                <tr>
+                                    <td>${new Date(history.recorded_at).toLocaleString('es-ES')}</td>
+                                    <td>${parseFloat(history.old_price).toFixed(2)}€</td>
+                                    <td>${parseFloat(history. new_price).toFixed(2)}€</td>
+                                    <td style="${changeClass}">
+                                        ${arrow} ${Math.abs(history.price_change).toFixed(2)}€ 
+                                        (${history.percentage_change > 0 ? '+' : ''}${parseFloat(history.percentage_change).toFixed(2)}%)
+                                    </td>
+                                </tr>
+                            `;
+                        });
+                        
+                        html += '</tbody></table>';
+                    }
+                    
+                    content.innerHTML = html;
+                    modal.style. display = 'block';
+                }
+            } catch (error) {
+                console.error('Error loading history:', error);
+                showMessage('Error al cargar historial', 'error');
+            }
+        }
+        
+        function closeHistoryModal() {
+            document. getElementById('history-modal').style.display = 'none';
+        }
+        
+        // Cerrar modal al hacer click fuera
+        window.onclick = function(event) {
+            const modal = document.getElementById('history-modal');
+            if (event.target == modal) {
+                modal.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>

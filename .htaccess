@@ -1,0 +1,56 @@
+# LiteSpeed Configuration
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    
+    # Base para el dominio
+    RewriteBase /
+    
+    # Permitir acceso directo a archivos que existen
+    RewriteCond %{REQUEST_FILENAME} -f [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^ - [L]
+    
+    # Redirigir API a api/index.php
+    RewriteRule ^api/(. *)$ api/index.php [L,QSA]
+    
+    # Redirigir raíz a public/index.html
+    RewriteRule ^$ public/index.html [L]
+    
+    # Todo lo demás a index.php (por si acaso)
+    RewriteRule ^(.*)$ index.php [L,QSA]
+</IfModule>
+
+# Seguridad:  Denegar acceso a archivos sensibles
+<FilesMatch "^\. ">
+    Require all denied
+</FilesMatch>
+
+<FilesMatch "\.(log|sql|md|txt|json|ini)$">
+    Require all denied
+</FilesMatch>
+
+# Bloquear directorios sensibles
+RedirectMatch 403 ^/config/
+RedirectMatch 403 ^/logs/
+RedirectMatch 403 ^/cache/
+RedirectMatch 403 ^/cron/
+RedirectMatch 403 ^/vendor/
+RedirectMatch 403 ^/scripts/
+RedirectMatch 403 ^/utils/
+RedirectMatch 403 ^/models/
+RedirectMatch 403 ^/services/
+RedirectMatch 403 ^/controllers/
+
+# Compresión (LiteSpeed lo maneja automáticamente, pero por si acaso)
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json
+</IfModule>
+
+# Cache headers
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType application/json "access plus 0 seconds"
+    ExpiresByType text/html "access plus 0 seconds"
+    ExpiresByType text/css "access plus 1 week"
+    ExpiresByType application/javascript "access plus 1 week"
+</IfModule>
